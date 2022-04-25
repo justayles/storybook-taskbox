@@ -44,7 +44,7 @@ Default.play = async ({ canvasElement }) => {
     // Simulates pinning the first task
     await fireEvent.click(canvas.getByLabelText('pinTask-1'));
     // Simulates pinning the third task
-    await fireEvent.click(canvas.getByLabelText('pinTask-3'));
+    // await fireEvent.click(canvas.getByLabelText('pinTask-3'));
   });
 };
 
